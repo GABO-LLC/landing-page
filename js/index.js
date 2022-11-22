@@ -1,4 +1,3 @@
-window.location.replace('https://www.gabo.solutions/home');
 const userLang = navigator.language || navigator.userLanguage; 
 switch (userLang) {
     case 'es-ES':
