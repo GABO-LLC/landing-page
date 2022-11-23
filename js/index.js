@@ -23,6 +23,10 @@ switch (userLang) {
         document.getElementById('we5').innerHTML = 'Marcamos la diferencia';
         document.getElementById('always').innerHTML = 'Siempre comprometidos con tu presupuesto y plazos.';
         document.getElementById('after').innerHTML = 'Despues de conocer tus necesidades estimamos cuanto tiempo y dinero nos va a llevar hacerlo realidad, te lo decimos y así será. No habrá retrasos ni aumentos de presupuesto durante todo el proceso.';
+        document.getElementById('we6').textContent = 'Nos mantenemos en contacto.';
+        document.getElementById('you').textContent = 'Puedes contactar con nosotros en cualquier momento y resolveremos tus dudas lo antes posible. También te pediremos tus comentarios y expectativas sobre el proceso para ser lo más exactos posible para dar vida a tus ideas.';
+        document.getElementById('send').textContent = 'Lánzalo y comienza a generar ingresos.';
+        document.getElementById('finish').textContent = '¡Termina tu proyecto y comienza a vender y conseguir clientes!';
         break;
 
     default:
