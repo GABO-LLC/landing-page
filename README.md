@@ -1,2 +1,2 @@
-# Great Apps Better Opportunities
+# Great Apps, Better Opportunities
 This is our landing page codebase.
