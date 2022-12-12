@@ -1,7 +1,7 @@
 const userLang = navigator.language || navigator.userLanguage; 
 switch (userLang) {
     case 'es-ES':
-        document.getElementById('title').innerHTML = 'GABO - desarrollo software';
+        document.getElementById('title').innerHTML = 'GABO - Desarrollo Software';
         document.getElementById('contact-btn').innerHTML = 'Contacto';
         document.getElementById('start-btn').innerHTML = 'Empieza ya';
         document.getElementById('it').innerHTML = 'Es Hora De';
