@@ -143,6 +143,14 @@ p {
   font-size: 19px;
 }
 
+.flex-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  max-width: 940px;
+  min-height: 3.5rem;
+}
+
 .navbar {
   position: fixed;
   left: 0px;
@@ -1363,12 +1371,5 @@ p {
   .centered-heading {
     margin-bottom: 24px;
   }
-  
-  .flex-align-justify-around-center {
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    max-width: 940px;
-    min-height: 3.5rem;
-  }
+ 
 }
