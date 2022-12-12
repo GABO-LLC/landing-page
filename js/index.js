@@ -2,13 +2,14 @@ const userLang = navigator.language || navigator.userLanguage;
 switch (userLang) {
     case 'es-ES':
         document.getElementById('title').innerHTML = 'GABO - Desarrollo Software';
+        document.getElementById('home').innerHTML = 'INICIO';
         document.getElementById('contact-btn').innerHTML = 'Contacto';
         document.getElementById('start-btn').innerHTML = 'Empieza ya';
         document.getElementById('it').innerHTML = 'Es Hora De';
         document.getElementById('START').innerHTML = 'COMENZAR A CONSTRUIR TU NEGOCIO';
         document.getElementById('and').innerHTML = 'Y te vamos a ayudar a lograrlo.';
         document.getElementById('get').innerHTML = 'EMPIEZA AHORA';
-        document.getElementById('some').innerHTML = 'Algunos de nuestros clientes';
+        document.getElementById('some').innerHTML = 'Algunos de nuestros partners:';
         document.getElementById('do').innerHTML = '¿Tienes una web?';
         document.getElementById('a').innerHTML = `¿Una aplicación móvil? ¿Eccomerce? ¿Portafolio perosnal o landing page de tu negocios con CMS? ¿Un SaaS? ¿O tal vez un PaaS? ¿O te gustaría tener uno pero no tienes presupuesto para que un equipo de desarrolladores le den vida a tu idea?<br>¡Estamos aquí para ayudarte!`;
         document.getElementById('get2').innerHTML = 'EMPIEZA AHORA';
