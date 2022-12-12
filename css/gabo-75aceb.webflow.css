@@ -372,7 +372,9 @@ p {
 }
 
 .press-logo {
-  filter: brightness(0) invert(1);
+  display: flex;
+  align-itmes: center;
+  filter: brightness(0) invert(1) !important;
   opacity: 0.35;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
