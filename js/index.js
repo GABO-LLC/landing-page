@@ -28,7 +28,6 @@ switch (userLang) {
         document.getElementById('send').textContent = 'Lánzalo y comienza a generar ingresos.';
         document.getElementById('finish').textContent = '¡Termina tu proyecto y comienza a vender y conseguir clientes!';
         break;
-        
     default:
         break;
 }
