@@ -252,8 +252,6 @@ p {
 }
 
 .section.press {
-  display: flex;
-  justify-content: space-around;
   padding-top: 29px;
   padding-bottom: 29px;
   background-color: #000;
@@ -1364,5 +1362,11 @@ p {
 
   .centered-heading {
     margin-bottom: 24px;
+  }
+  
+  .flex-align-justify-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
   }
 }
