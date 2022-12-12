@@ -260,6 +260,8 @@ p {
 }
 
 .section.press {
+  display: flex;
+  justify-content: center;
   padding-top: 29px;
   padding-bottom: 29px;
   background-color: #000;
