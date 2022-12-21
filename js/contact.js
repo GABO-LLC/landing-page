@@ -8,7 +8,6 @@ switch (userLang) {
         document.getElementById('whats').innerHTML = `What's App Telegram o Signal:`;
         document.getElementById('contact-2').innerHTML = `CONTACTO`;
         break;
-        
     default:
         break;
 }
