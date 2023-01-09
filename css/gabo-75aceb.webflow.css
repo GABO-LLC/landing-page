@@ -494,14 +494,14 @@ p {
   position: relative;
   display: block;
   width: 810px;
-  height: 318px;
+  height: 200px;
   margin: 78px auto -135px;
   -webkit-transition: height 500ms ease;
   transition: height 500ms ease;
 }
 
 .image-crop.hero:hover {
-  height: 200px;
+  height: 500px;
 }
 
 .feature-icon-wrapper {
